@@ -3,8 +3,8 @@
 #
 # jupyter tool
 #
-/usr/bin/invoke_app "$@" -t hubtoolshortname \
-                         -C "start_jupyter -T @tool -t hubtoolshortname.ipynb" \
-                         -u anaconda-X \
+/usr/bin/invoke_app "$@" -t 2dcnt \
+                         -C "start_jupyter -T @tool -t CNT Forest Growth.ipynb" \
+                         -u anaconda-6 \
                          -r none \
                          -w headless
